@@ -7,7 +7,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: eshop1
-  LOCATION: US-east
+  LOCATION: useast
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: da2ebe7c-bbba-4448-a83a-7b29aa5d4da8
   WEBAPP-NAME: eshoprm96447
